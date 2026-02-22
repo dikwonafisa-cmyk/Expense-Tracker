@@ -4,7 +4,7 @@
     <a href="https://github.com/SVijayB/PyHub"><img src="assets/pyLogo.png" alt="Logo" border="0"></a>
 </p>
 
-<div align="center">
+<p align="center">
 
 ![https://github.com/sree-hari-s/Expense-Tracker/network/members](https://img.shields.io/github/forks/sree-hari-s/Expense-Tracker?color=green) &nbsp;
 ![https://github.com/sree-hari-s/Expense-Tracker/graphs/issues](https://img.shields.io/github/issues/sree-hari-s/Expense-Tracker)  &nbsp;
@@ -13,11 +13,11 @@
 ![https://github.com/sree-hari-s/Expense-Tracker/watchers](https://img.shields.io/github/watchers/sree-hari-s/Expense-Tracker?color=yellow) &nbsp;
 ![https://github.com/sree-hari-s/Expense-Tracker/license](https://img.shields.io/github/license/sree-hari-s/Expense-Tracker) &nbsp;
 [![code style: black](https://img.shields.io/badge/code%20style-black-000.svg)](https://github.com/psf/black) &nbsp;
-</div>
+</p>
 
-<div align="center">
+<center>
 Welcome to the Family Expense Tracker - a simple Python project designed to help you keep track of your family members' earnings and expenses. This tool allows you to effortlessly manage family finances by adding members, recording their earnings, and calculating the remaining balance after deducting expenses.
-</div>
+</center>
 
 ## Table of Contents
 
@@ -51,40 +51,77 @@ The Expense Tracker features a simple and easy-to-navigate interface, ensuring a
 
 ## How to Use
 
-1. **Add Family Members:**
-   - Run the [application](https://expense-tracker-alpha.streamlit.app/) and choose the option to add family members.
-   - Enter the names of the family members you want to track.
+### 1️⃣ **Add Family Members:**
 
-2. **Record Earnings:**
-   - Select the option to record earnings.
-   - Specify the earnings for each family member.
+- Run the [application](https://expense-tracker-alpha.streamlit.app/) and choose the option to add family members.
+- Enter the names of the family members you want to track.
 
-3. **Track Expenses:**
-   - Log expenses for various categories (e.g., groceries, bills).
-   - The application automatically calculates the remaining balance after deducting expenses.
+### 2️⃣ **Record Earnings:**
+
+- Select the option to record earnings.
+- Specify the earnings for each family member.
+
+### 3️⃣ **Track Expenses:**
+
+- Log expenses for various categories (e.g., groceries, bills).
+- The application automatically calculates the remaining balance after deducting expenses.
 
 ## Installation
 
-1. Clone the repository:
+### 1️⃣ Clone the Repository
 
-   ```bash
-   git clone https://github.com/sree-hari-s/Expense-Tracker.git
-   cd Expense-Tracker
-   ```
+```bash
+git clone https://github.com/sree-hari-s/Expense-Tracker.git
+cd Expense-Tracker
+```
 
-2. Install the required dependencies
+---
 
-   ```bash
-    pip install -r requirements.txt
-    ```
+### 2️⃣ (Recommended) Create a Virtual Environment
 
-3. Run the Application
+Create a virtual environment to isolate project dependencies:
 
-   Now you can run the Family Expense Tracker application using Streamlit:
+```bash
+py -m venv .venv
+```
 
-    ```bash
-    streamlit run app.py
-    ```
+Activate the virtual environment:
+
+```bash
+.\.venv\Scripts\activate
+```
+
+---
+
+### 3️⃣ Use Python 3.11 (Required)
+
+If you don't have Python 3.11 installed, install it using:
+
+```bash
+winget install python.python.3.11
+```
+
+Install dependencies using Python 3.11:
+
+```bash
+py -3.11 -m pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Run the Application
+
+Start the Streamlit application using Python 3.11:
+
+```bash
+py -3.11 -m streamlit run app.py
+```
+
+The application will start and open in your browser at:
+
+```
+http://localhost:8501
+```
 
 ## How to Contribute
 
@@ -99,7 +136,6 @@ Thank you all for, your contributions. Your contributions hold immense value for
     <img src="https://contrib.rocks/image?repo=sree-hari-s/Expense-Tracker" alt="Contributors" />
   </a>
 </p>
-
 
 ## License
 
